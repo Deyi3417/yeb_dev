@@ -6,7 +6,7 @@ proxyObj['/']={
   ws:false,
   // 目标地址
   target:'http://localhost:8081',
-  // 发送请求头host会被设置成target--deyi
+  // 发送请求头host会被设置成target--deyi--suyao
   changeOrigin:true,
   // 不重写请求地址
   pathRewrite:{
