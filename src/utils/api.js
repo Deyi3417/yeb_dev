@@ -3,7 +3,7 @@ import axios from "axios";
 import { Message } from 'element-ui';
 import router from "@/router";
 
-// 响应拦截器
+// 响应拦截器--deyi is cool
 axios.interceptors.response.use(success=>{
     // 业务逻辑错误
     if (success.status && success.status == 200){
